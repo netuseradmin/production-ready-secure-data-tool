@@ -1,0 +1,14 @@
+production-ready-secure-data-tool/
+├── .env
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── .gitignore
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── SECURITY.md
+├── config.js
+├── index.html
+├── package.json
+└── server.js
